@@ -1,0 +1,8 @@
+@media screen and (max-width: 576px) {
+    nav{
+    flex-direction: column;
+    }
+    nav ul li{
+        padding: 10px 0px;
+    }
+}
