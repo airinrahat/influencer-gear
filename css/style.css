@@ -16,7 +16,7 @@ nav{
     max-width: 1000px;
     margin: 0px auto;
     padding: 20px 10px;
-    border: 2px solid red;
+
 }
 nav .logo{
     color: #3A3A3A;
@@ -40,3 +40,66 @@ font-weight: 600;
 }
 
 /* nev section End */
+/* infulencer section start */
+.infulencer{
+   
+max-width: 1000px;
+   align-items: center;
+   margin: 0 auto;
+   display: flex;
+   margin-top: 40px;
+}
+.infulencer-title
+{
+    
+    width: 50%;
+    padding-bottom: 5px;
+    /* border-bottom: 1px solid red; */
+}
+.infulencer-title h1{
+    color: #3A3A3A;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.infulencer-title p{
+    color: #3A3A3A;
+    font-size: .9rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.infulencer-img{
+    width: 50%;
+ 
+}
+.infulencer-img img{
+    width: 100%;
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+
+    
+}
+button.primary-btn{
+    border-radius: 41px;
+background: #E02C6D;
+padding: 10px 24px;
+border: none;
+color: white;
+}
+
+
+
+/* infulencer section end */
+
+
+/* logo style start */
+.logo-all-img{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    justify-content: space-evenly;
+    padding: 0px 80px;
+
+}
